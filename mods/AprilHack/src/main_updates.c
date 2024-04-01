@@ -46,7 +46,7 @@ inline void SetTitleScreenColor(byte r, byte g)
 void MainUpdate()
 {
     
-    //Change background color when menu gets updated
+    //Change background color when game starts
     if(should_update_bg_color)
     {
         SetTitleScreenColor(bg_color.r, bg_color.g);
