@@ -5,7 +5,7 @@ const RedGreen bg_color = {0x00, 0x50};
 
 #define STATE_BONKING 0xC
 
-bool should_update_bg_color;
+bool should_update_bg_color = true;
 
 
 enum{
@@ -65,7 +65,7 @@ void MainUpdate()
             }
         }
 
-
+        // Reset
         else if (should_reset_timer >= 6)
         {
             SkipIntro();
@@ -73,7 +73,8 @@ void MainUpdate()
             should_reset_timer = TIMER_STOPPED;
             _dragonTouchSpeed = 0;
         }
-        // Start timer to reset
+
+        // Start timer to prepare for reset
         else if (should_reset_timer >= TIMER_STARTED)
         {
             should_reset_timer++;
