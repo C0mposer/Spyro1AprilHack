@@ -1,0 +1,3 @@
+asmhooks 0x16720
+asmgamestate_fairy_fixs 0xf5b0
+srcmainc 0x0

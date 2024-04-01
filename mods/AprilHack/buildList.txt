@@ -1,0 +1,8 @@
+NTSC, exe, 0x80033e38, 0x0, asm/hook.s
+NTSC, exe, 0x8002ccc8, 0x0, asm/gamestate_fairy_fix.s
+NTSC, exe, 0x8001D718, 0x0, src/main.c src/main_updates.c
+
+
+PS2_NTSC, exe, 0x80033e38, 0x0, asm/hook.s
+PS2_NTSC, exe, 0x8002ccc8, 0x0, asm/gamestate_fairy_fix.s
+PS2_NTSC, exe, 0x8001D718, 0x0, src/main.c src/main_updates.c
