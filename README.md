@@ -6,7 +6,7 @@
 
 # Downloads
 ## BIN/CUE Downloads
-To simply download the patched rom and get practicing, download the cue/bin here:
+Download the cue/bin here:
     
 [PS1/PS2/EMU bin/cue](https://github.com/C0mposer/Spyro1AprilHack/releases/download/fullrelease1.0.0/spyro1_AprilHack.zip)
 
